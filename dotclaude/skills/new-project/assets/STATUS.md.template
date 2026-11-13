@@ -1,0 +1,18 @@
+# Status — {{NAME}}
+
+_Last updated {{DATE}} by {{USER}}. Keep this file current: it is what `/continue-project` reads to pick the work back up, and what collaborators read to see where things stand._
+
+## Now
+- (what is being worked on right now, and by whom)
+
+## Done recently
+- {{DATE}} — project set up ({{USER}})
+
+## Next
+- (the next one to three concrete steps)
+
+## Blockers / questions
+- (anything waiting on a decision or another person)
+
+## Notes for collaborators
+- (hand-offs, conventions, things to know before editing)

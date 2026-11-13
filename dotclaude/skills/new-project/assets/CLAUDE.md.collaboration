@@ -1,0 +1,18 @@
+
+<!-- claude-sync: collaboration conventions (managed by the new-project / sync-project skills) -->
+## Collaboration and syncing
+
+This repository is shared with other people ({{COLLABORATORS}}), who may be editing it from their
+own Claude sessions at the same time. Keep everyone's copy in step:
+
+- **Start of every session:** `git pull` before reading or editing anything (`/continue-project {{NAME}}` does this).
+- **Checkpoints:** commit and push with `/sync-project` whenever a piece of work is complete, before
+  switching to another project, and before ending a session. Small frequent pushes beat one big one,
+  because collaborators see progress and conflicts stay tiny.
+- **STATUS.md is the shared whiteboard.** Update its *Now / Done recently / Next / Blockers* sections
+  as part of every sync so a collaborator (or a future session) can pick up without re-reading everything.
+- **Identify yourself** in commit messages and STATUS.md by GitHub login (`gh api user --jq .login`),
+  since several people share this history.
+- **Conflicts:** `/sync-project` pulls with rebase before pushing. If a rebase conflict appears, resolve
+  it file by file, keep both sides' intent, and tell the user which files were affected.
+<!-- /claude-sync -->

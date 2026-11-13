@@ -1,0 +1,184 @@
+{
+  "title": "Vectis UR8L Welding Cobot — Capital Investment",
+  "subtitle": "Long-reach collaborative welding cell with Hydro Weld package and XL mobile grid cart",
+  "outputPath": "Vectis_UR8L_Cobot_Executive_Summary.docx",
+  "author": "Automation Engineering",
+  "investment": [
+    [
+      "Vectis UR8L long-reach cobot — Hydro Weld package, XL mobile grid cart",
+      137890
+    ],
+    [
+      "Omron PLC & servo motor (estimated)",
+      30000
+    ],
+    [
+      "Additional integration components",
+      4813
+    ]
+  ],
+  "investmentTotalLabel": "Total Installed Investment",
+  "investmentNote": "Note: Omron PLC and servo motor costs are estimates pending final quotation.",
+  "savings": [
+    [
+      "Year 0",
+      21602
+    ],
+    [
+      "Year 1",
+      36748
+    ],
+    [
+      "Year 2",
+      37850
+    ],
+    [
+      "Year 3",
+      38985
+    ],
+    [
+      "Year 4",
+      40155
+    ],
+    [
+      "Year 5",
+      41360
+    ]
+  ],
+  "savingsColLabel": "Annual Labor Savings",
+  "paybackYearsOverride": 3.93,
+  "paybackKind": "undiscounted",
+  "operationalBullets": [
+    [
+      "Labor:",
+      "242 minutes of manual task time removed per day across 14 weldments."
+    ],
+    [
+      "Capacity:",
+      "0.50 operators freed per 480-minute shift, available for redeployment to higher-value work."
+    ],
+    [
+      "Quality:",
+      "Consistent cycle times and repeatable weld quality reduce rework and scrap on the affected part numbers."
+    ]
+  ],
+  "detailTable": {
+    "title": "Weldments Automated",
+    "columns": [
+      "Weldment",
+      "Qty / Day",
+      "Current (min)",
+      "New (min)",
+      "Savings/Day (min)"
+    ],
+    "rows": [
+      [
+        "Part 01",
+        "0.25",
+        "288",
+        "30",
+        "64.50"
+      ],
+      [
+        "Part 02",
+        "0.25",
+        "210",
+        "30",
+        "45.00"
+      ],
+      [
+        "Part 03",
+        "0.25",
+        "120",
+        "30",
+        "22.50"
+      ],
+      [
+        "Part 04",
+        "0.25",
+        "60",
+        "10",
+        "12.50"
+      ],
+      [
+        "Part 05",
+        "0.25",
+        "130",
+        "10",
+        "30.00"
+      ],
+      [
+        "Part 06",
+        "0.0834",
+        "47",
+        "10",
+        "3.09"
+      ],
+      [
+        "Part 07",
+        "0.0834",
+        "120",
+        "10",
+        "9.17"
+      ],
+      [
+        "Part 08",
+        "0.25",
+        "60",
+        "10",
+        "12.50"
+      ],
+      [
+        "Part 09",
+        "0.25",
+        "60",
+        "10",
+        "12.50"
+      ],
+      [
+        "Part 10",
+        "2.75",
+        "5",
+        "1",
+        "11.00"
+      ],
+      [
+        "Part 11",
+        "0.75",
+        "5",
+        "1",
+        "3.00"
+      ],
+      [
+        "Part 12",
+        "1",
+        "5",
+        "1",
+        "4.00"
+      ],
+      [
+        "Part 13",
+        "0.25",
+        "30",
+        "5",
+        "6.25"
+      ],
+      [
+        "Part 14",
+        "0.25",
+        "30",
+        "5",
+        "6.25"
+      ]
+    ],
+    "totalLabel": "Total task-time savings per day",
+    "totalValue": "242 min",
+    "note": "Task-time savings per day = quantity per day × (current task time − new task time). Total: 242 min/day ≈ 0.50 operator of a 480-minute shift."
+  },
+  "assumptions": [
+    "Labor savings are provided per year (Year 0 is a partial/ramp year); figures escalate annually with labor rates.",
+    "PLC and servo motor pricing (~$30,000) is an estimate; final capital may adjust with quotation.",
+    "ROI reflects direct labor savings only and does not include quality, rework, throughput, or safety benefits, which represent additional upside.",
+    "Payback is undiscounted and matches the company ROI calculator (Year 0 treated as time-zero baseline)."
+  ]
+}
