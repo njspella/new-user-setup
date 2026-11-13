@@ -17,6 +17,24 @@ steps are by hand. The Claude Code config is installed by `setup.sh`.
 
 ## Checklist
 
+### 0. Coming from ChatGPT (by hand)
+- [ ] In ChatGPT settings > Data controls, request a data export and keep the zip as an archive.
+- [ ] Ask ChatGPT: "List everything you remember about me, verbatim." Copy the answer.
+- [ ] In Claude, turn memory on, paste that answer in a chat and ask Claude to import it
+      (the built-in import-memory skill does this).
+- [ ] Copy ChatGPT's custom instructions into Claude's Settings > Profile preferences.
+- [ ] For each custom GPT you use, make a Claude project with its instructions and files.
+
+| In ChatGPT | In Claude |
+|---|---|
+| Memory | Memory, imported with the import-memory skill |
+| Custom instructions | Profile preferences |
+| Custom GPTs | Projects with instructions and files, or skills |
+| Projects | Projects |
+| Canvas | Artifacts and docs |
+| Connectors / apps | Connectors (step 3) |
+| Codex | Claude Code (step 6) |
+
 ### 1. Account and apps (by hand)
 - [ ] Create a Claude account at claude.ai and pick a plan (Pro or Max).
 - [ ] Install the Claude desktop app for Mac and sign in.
